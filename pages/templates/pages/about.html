@@ -1,0 +1,54 @@
+{%  extends "./index.html" %}
+{% load static %}
+
+{% block content %}
+<title>О нас</title>
+<div class="content inner">
+    <div class="grid__cards">
+        <div class="page_header">
+            <h1 class="underline">
+                <span>Добро пожаловать</span>
+            </h1>
+            <h2>Это web-приложение - дипломная работа.</h2>
+        </div>
+        <div class="grid__row">
+            <div class="gridcol single">
+                <img src="{% static 'pages/images/6.jpg'%}" width="100" height="26" class="responsive" alt="">
+            </div>
+        </div>
+        <div class="grid__row gridcol__inline">
+            <div class="gridcol grid-feature">
+                <div class="gridcol__outer">
+                    <div class="gridcol__inner grid-styles" data-bkgcolor="#ffffff" data-txtcolor="#00000" style="background-color: rgb(255, 255, 255);">
+                        <div class="gridcol__body">
+                            <p class="largetxt">
+                            <br></br><br></br><br></br></p>
+
+                            <p class="largetxt"><br></br>Сайт создан как раз для поиска информации, которую могут потребовать на собеседовании на ту или иную вакансию, а также для построения плана дальшейшей подготовки к предстоящему интервью.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gridcol" data-width="slim">
+                <div class="gridcol__top">
+                    <div class="gridcol__outer">
+                        <div class="gridcol__inner">
+                            <img src="{% static 'pages/images/7.jpg'%}" width="100" height="26" class="responsive" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="gridcol__btm">
+                    <a href="http://eighthourday.com/merit">
+                        <div class="gridcol__outer">
+                            <div class="gridcol__inner">
+                                <img src="{% static 'pages/images/8.jpg'%}" width="100" height="26" class="responsive" alt="">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+{% endblock %}

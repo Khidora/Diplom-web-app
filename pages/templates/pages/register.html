@@ -1,0 +1,25 @@
+
+{%  extends "./index.html" %}
+{% load static %}
+
+{% block title %}Login{% endblock title %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% block name_page %}
+<h1 class="my-4">Login</h1>
+{% endblock name_page %}
+
+<form method="POST" action="{% url = 'register' %}">
+    {% csrf_token %}
+
+    {{form}}
+    <input name='register' type = 'submit' value = "Register" class="btn btn-primary"></input>
+</form>
+
+<hr>
+<!--<small>Already have an account? <a href="{% url 'login' %}">Log in</a></small><br>-->
+
+<br>
+
+
+{% endblock content %}

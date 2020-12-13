@@ -1,0 +1,64 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/product/">
+
+
+    <meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
+    <link rel="stylesheet" href="{% static 'pages/css/index.css' %}" >
+
+</head>
+
+  <body>
+    <nav class="site-header sticky-top py-1 ">
+  <div class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="py-2" href="/">
+      <img src="{% static 'pages/images/ff.png'%}" width="100" height="26">
+    </a>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <a class="py-2 d-none d-md-inline-block" href="#">ПОПУЛЯРНЫЕ ВАКАНСИИ</a>
+    <a class="py-2 d-none d-md-inline-block" href="/interview">ИНТЕРВЬЮ</a>
+    <a class="py-2 d-none d-md-inline-block" href="/about">О НАС</a>
+    <a class="py-2 d-none d-md-inline-block" href="/contacts">КОНТАКТЫ</a>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <div class="py-2 d-none d-md-inline-block" href="#" >                                   </div>
+    <a class="btn btn-outline-secondary py-2 d-none d-md-inline-block" href="#">РЕГИСТРАЦИЯ</a>
+    <a class="btn btn-outline-secondary py-2 d-none d-md-inline-block" href="#">ВХОД</a>
+
+  </div>
+</nav>
+
+
+    <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.9824540767568!2d37.49690831589415!3d55.81090499497673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54837ca747699%3A0xddf76528b536d2bb!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JDQstC40LDRhtC40L7QvdC90YvQuSDQmNC90YHRgtC40YLRg9GC!5e0!3m2!1sru!2sru!4v1606521471762!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
+{% block content %}
+    {% endblock %}
+
+
+<footer class="container py-5">
+  <div class="row">
+    <div class="col-12 col-md">
+      <img src="{% static 'pages/images/gg.png'%}" width="120" height="38">
+
+      <large class="d-block mb-3 text-muted">© Copyright 2020 by Darya Kochuykova.</large>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
